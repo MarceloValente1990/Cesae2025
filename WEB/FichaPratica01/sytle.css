@@ -1,0 +1,133 @@
+*{
+    background-color: antiquewhite;
+    margin: 0px 0px 0px 0px;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding: 30px;
+    padding-left: 42%;
+    background-image:url(images2.jpg); 
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(210, 129, 30);
+    justify-content: space-around;
+}
+.item{
+    background-color: rgb(210, 129, 30) ;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.texto{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(210, 129, 30);
+    border-color: black;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+    min-height: 600px;
+    
+}
+.para{
+    margin-right: 15px;
+    min-width: 30%;  
+}
+#volei{
+    background-image: url(result_exercicio.jpg);
+    color: aliceblue;
+    font-size: larger;
+}
+#cozinha{
+    background-image: url(comida.jpg);
+    color: aliceblue;
+    font-size: larger;
+}
+#viagem{
+    background-image: url(result_Viagem.jpg);
+    font-size: larger;
+}
+.caixa{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.outra{
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: end;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:rgb(222, 189, 150);
+    min-height: 320px;
+    min-width: 45%;
+    margin-right: 70px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.formulario{
+    display:flex;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-inline-start:10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: x;
+    background-color:rgb(222, 189, 150);
+    min-width: 45%;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.cadastro{
+    background-color:rgb(222, 189, 150);
+}
+#dicas{
+    text-align: center;
+    background-color: rgb(222, 189, 150);
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#button{
+    display: flex; 
+    justify-content: end; 
+    background-color: rgb(222, 189, 150);
+}
+#click:hover{
+    cursor:pointer;
+    background-color: rgb(210, 129, 30) ;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(210, 129, 30);
+    justify-content: space-around;
+}
+#footer{
+    background-color: rgb(210, 129, 30) ;
+}
+@media screen and (max-width: 600px){
+    .paragrafo{ 
+        display: inline;
+    }
+    .para{
+        margin: 15px;
+    }   
+}

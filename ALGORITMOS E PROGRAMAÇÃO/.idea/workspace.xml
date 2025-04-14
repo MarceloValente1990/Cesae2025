@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0166c38d-017b-41c4-bc45-e35b2aa093f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/01 - Apresentação - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 - Conceitos Fundamentais - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Tipos de Dados - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04 - Input e Output - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05 - Ficha Prática 01 - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06 - Condicionais - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07 - Ficha Prática 02 - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 - Ciclos - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09 - Ficha Prática 03 - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 - Ciclos For - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 - Ciclos Do While e Menus - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 - Ficha Prática 04 - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 - Vetores e Matrizes - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14 - Ficha Prática 05 - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16 - Funções - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17 - Ficha Prática 06 - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18 - Exceções - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19 - Ficheiros - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20 - Ficha Prática 07 - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficha Prática Extra Arrays e Matrizes - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficha Prática Extra Ciclos - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficha Prática Extra Condicionais - Algoritmia e Programação.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficha Prática Extra Ficheiros - Programação Estruturada.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficha Prática Extra Funções - Programação Estruturada.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2vaXHvSqV2ht7cWcrxSoo4MiF9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ex01.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/CesaeSoftDev/ALGORITMOS E PROGRAMAÇÃO/Projetos"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0166c38d-017b-41c4-bc45-e35b2aa093f6" name="Changes" comment="" />
+      <created>1744384074976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744384074976</updated>
+    </task>
+    <servers />
+  </component>
+</project>

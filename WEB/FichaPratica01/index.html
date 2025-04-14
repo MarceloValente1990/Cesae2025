@@ -6,27 +6,73 @@
     <meta name="author" content="Marcelo Valente">
     <meta name="description" content="Página exemplo">
     <meta name="keywords" content="HTML, CSS, JS">
+    <link rel="stylesheet" href="sytle.css">
+    <!-- link h1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!--link cadastro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Meu Site</title>
 </head>
-<body style="background-color: blue;">
-   <h1>MARCELO VALENTE</h1>
-   <p>jdjkghaukrhglkjhgk</p>
-   <img src="../../IMAGENS/WhatsApp Image 2025-02-21 at 14.15.28.jpeg" alt="" width="150"><br><br><br>
-   <ol type="I">Interesses<br><br>
-        <li>Volei</li>
-        <li>Cozinhar</li>
-        <li>Viajar</li>
-   </ol><br><br>
-   <a href="https://github.com/MarceloValente1990">Githut</a> <br><br>
-   <iframe width="400" height="315" src="https://www.youtube.com/embed/vE26dVkCvpw?si=dtCORj2OUHjBq13y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br><br>
-   <form action="">
-    <label for="">Nome</label>
-        <input type="text" id="name" name="name" placeholder="name"><br><br>
-    <label for="">Email</label>
-        <input type="email" id="email" name="email" placeholder="email"><br><br>
-    <textarea name="text" id="" cols="30" rows="10" placeholder="deixe seu comentario"></textarea>  
-    <button>Enviar</button>  
-   </form>
+<body>
+    <div >
+        <h1>Marcelo Valente</h1>    
+    </div>
+   <nav>
+        <div class="container flex-container row-direction">
+            <a href="exercicio.jpg" class="item">ESPORTE</a>
+            <a href="Viagem.jpg" class="item">VIAGENS</a>
+            <a href="comida.jpg" class="item">COZINHA</a>
+        </div>
+    </nav>
+    <div class="paragrafo">
+        <div class="para">
+            <p class="texto" id="volei">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi culpa autem minus obcaecati   doloribus, sed porro corrupti est fuga, saepe temporibus quae minima commodi corporis voluptatem, dolor odio adipisci rem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quis hic magni voluptatum reprehenderit nulla veniam corporis rem, excepturi eveniet ullam ipsam necessitatibus quia inventore corrupti iusto libero id quod.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, quae est voluptatum exercitationem eaque aut deserunt expedita harum quis modi quibusdam sequi corrupti qui accusantium ullam iusto totam nesciunt illum?
+            </p>
+        </div>
+        <div class="para">
+            <p class="texto" id="viagem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor ab possimus iste molestiae? Atque veritatis, consectetur incidunt laborum vero eligendi voluptate reiciendis et fuga, molestiae minus harum expedita eveniet?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe magni possimus consequatur soluta perferendis. Aperiam nulla error voluptatem facilis earum eligendi similique ex expedita saepe magni ipsam facere, architecto quae?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolorem assumenda eaque! Explicabo nesciunt debitis consequuntur accusamus reiciendis eos deleniti ab voluptates rerum beatae est quibusdam, odio molestiae tenetur incidunt.
+            </p>
+        </div>
+        <div class="para">
+            <p class="texto" id="cozinha">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dignissimos reiciendis magni ad quis nostrum dicta aut! Minus doloribus asperiores, impedit incidunt saepe sed deleniti. Quas, accusamus? Veniam, tempora corrupti?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex itaque ab modi vitae iste odio quia dicta porro recusandae, accusamus suscipit reprehenderit sit eaque. Sapiente voluptates id natus nobis quia.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ipsa magni, ex ut, velit nisi odio rem nostrum delectus id ratione quia, totam exercitationem similique eos assumenda molestias incidunt enim!
+            </p>
+        </div>
+    </div>
+<div class="caixa">
+    <div class="outra">
+    <video src="../FichaPratica01/5700949-uhd-3840-2160-25fps_noHtpRXQ.mp4" autoplay loop style="height: 100%; width: 100%;"></video>
+    </div>
+    <div class="formulario">
+        <form class="cadastro" action="">
+            <p id="dicas">Cadastre para mais dicas!!!</p><br>
+            <label style="background-color: rgb(222, 189, 150);" for="">Nome</label>
+            <input type="text" id="name" name="name" placeholder="name"><br><br>
+            <label style="background-color: rgb(222, 189, 150);" for="">Email</label>
+            <input type="email" id="email" name="email" placeholder="email"><br><br>
+            <textarea name="text" id="" cols="50" rows="10" placeholder="Sugestões..."></textarea>  
+            <div id="button"><button id="click">Enviar</button></div>
+        </form>  
+    </div>
+</div>
+    <div>
+        <footer class="rodape">
+            <p id="footer">© 2025 · Todos os direitos reservados · <a href="" style="background-color: rgb(210, 129, 30); color: black;">Política de Privacidade</a></p>
+        </footer>
+    </div>
+   
+    
+    
+   
 
 
 
