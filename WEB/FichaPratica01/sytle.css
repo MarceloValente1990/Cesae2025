@@ -1,15 +1,14 @@
 *{
     background-color: antiquewhite;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;  
 }
 
-h1{
+.titulo{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
-    padding: 30px;
-    padding-left: 42%;
+    padding: 30px 30px 30px 45%;
+    
     background-image:url(images2.jpg); 
 }
 
@@ -116,18 +115,45 @@ h1{
 .rodape{
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(210, 129, 30);
     justify-content: space-around;
 }
 #footer{
-    background-color: rgb(210, 129, 30) ;
+    background-color: rgb(210, 129, 30);
+}
+.icone{
+    background-color: rgb(210, 129, 30);
+    padding-left: 47%;
+    padding-bottom: 15px;
+}
+.ancora{
+    color: black;
+    text-decoration: none;
+}
+.fi{
+    padding-right: 15px;
 }
 @media screen and (max-width: 600px){
+    .titulo{
+        padding: 30px 30px 30px 34%;
+    }
     .paragrafo{ 
         display: inline;
+        padding: 0;
     }
     .para{
-        margin: 15px;
-    }   
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 57px;
+    } 
+    .caixa{
+        display: inline;
+        padding: 0;
+    }
+    .outra{
+        margin-left: 50px;
+        height: 100px;
+    }  
 }
