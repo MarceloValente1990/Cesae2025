@@ -7,24 +7,30 @@
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-style: normal;
-    padding: 30px 30px 30px 45%;
-    
+    padding: 30px 30px 30px 10%;
+    font-size: 520%;
     background-image:url(images2.jpg); 
 }
 
 .flex-container{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(210, 129, 30);
     justify-content: space-around;
 }
 .item{
     background-color: rgb(210, 129, 30) ;
     color: black;
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
+    font-size: 150%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.item:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(210, 129, 30);
 }
 .paragrafo{
     display: flex;
@@ -89,12 +95,12 @@
     padding-top: 10px;
     padding-bottom: 5px;
     padding-right: x;
-    background-color:rgb(222, 189, 150);
+    background-color:rgb(222, 190, 150);
     min-width: 45%;
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
 }
 .cadastro{
-    background-color:rgb(222, 189, 150);
+    background-color:rgb(222, 190, 150);
 }
 #dicas{
     text-align: center;
@@ -122,10 +128,15 @@
 #footer{
     background-color: rgb(210, 129, 30);
 }
+#divfooter{
+    display: flex;
+    flex-direction: column;
+}
 .icone{
     background-color: rgb(210, 129, 30);
-    padding-left: 47%;
+    padding-left: 40%;
     padding-bottom: 15px;
+    padding-top: 10px;
 }
 .ancora{
     color: black;
