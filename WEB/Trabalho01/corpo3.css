@@ -1,0 +1,40 @@
+.corpo3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(180, 155, 44, 0.25);
+}
+.floresta{
+    width: 100%;
+    height: 450px;
+    background-image: url(Imagens/floresta2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.explora{
+    font-family: "Jura", sans-serif;
+    color: rgba(0, 0, 0, 1);    
+}
+#explora1{
+    text-align: center;
+    padding: 18% 20% 3% 20%;
+    font-size: 30px;  
+}
+#explora2{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    border: solid rgba(0, 0, 0, 1) 3px;
+    border-radius:35px;
+    margin: 0% 30% 0% 30%;
+    padding: 2% 0% 2% 0%;
+    font-size: 25px;
+}
+#seta2{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+}

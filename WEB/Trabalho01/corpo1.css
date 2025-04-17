@@ -1,48 +1,47 @@
-*{
-    margin: 0px 0px 0px 0px;
-}
 .corpo1{
     display: flex;
     width: 100%;
-    height: 569px;
-    border: solid;
+    height: 450px;
     background-color: rgba(180, 155, 44, 0.25);
 }
-.row3{
-    display: flex;
-    text-align: center;
-}
-.colunacorpo1{
-    border: solid coral;
-    display: flex;
-    flex-direction: row; 
-}
-#coluna1{
+.coluna1{
     font-family: "Jura", sans-serif;
+    text-align: initial;
     font-size: 43px;
-    letter-spacing: 20%;
-    border: solid blue;
-    display: flex;
-    flex-direction: column;
-    padding-top: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
-    margin: 10% 10% 10% 10%;
-  
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 50px;
 }
-.colunacorpo2{
-    border: solid greenyellow;
-    font-family: "Jura", sans-serif;
-    display: flex;
+#linha{
+    display: block;
+    border-right: solid; 
+    padding-top: 16%;
+    padding-bottom: 16%; 
+}
+#corLetra{
+    color: rgba(104, 105, 49, 1);
 }
 .trabalho{
-    border: solid;
+    padding-top: 19%;  
+    flex-direction:column;
     font-size: 30px;
-    padding-top: 13%;
-    padding-left: 0%;
-    display: flex;
-    flex-direction: column;
+    font-family: "Jura", sans-serif;   
 }
-
-
+.colunacorpo2{
+    font-family: "Jura", sans-serif;
+    display: flex;
+    font-size: 20px;
+    line-height: 1px;
+    padding-top: 5%;
+    margin-right: 8%;
+    margin-left: 7%;
+    padding-bottom: 8%;   
+}
+#parte1{
+    border-left: solid;
+    padding-left: 7%;   
+}
+#parte2{
+    border-right: solid;
+    margin-right: 20%; 
+}

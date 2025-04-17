@@ -1,0 +1,34 @@
+.corpo4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 530px;
+    background-color: black;
+}
+.celular{
+    width: 100%;
+    height: 530px;
+    background-image: url(Imagens/corpo4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+#celular2{
+    position: absolute;
+    left: 500px;
+    top: 240px;
+    text-decoration: none;
+    color: rgb(243, 239, 239);
+    border: solid rgba(0, 0, 0, 1) 3px;
+    background-color: black;
+    border-radius:35px;
+    font-size: 25px;
+    padding: 1% 7%; 
+}
+#seta3{
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}

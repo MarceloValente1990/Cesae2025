@@ -1,0 +1,41 @@
+.corpo2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    background-color: black;
+}
+.kombe{
+    width: 100%;
+    height: 450px;
+    background-image: url(Imagens/kombe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.descubra{
+    font-family: "Jura", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    position: relative;    
+}
+#descubra1{
+    text-align: center;
+    padding: 5% 20% 3% 20%;
+    font-size: 30px;  
+}
+#descubra2{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    border: solid rgba(255, 255, 255, 1) 3px;
+    border-radius:35px;
+    font-size: 25px;
+    margin: 0% 30% 0% 30%;
+    padding: 2% 0% 2% 0%;
+}
+#seta{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
